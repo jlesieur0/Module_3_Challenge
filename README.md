@@ -1,6 +1,7 @@
 # Module 2 Challenge - Loan Qualifier App
 
-This loan qualifier app is designed to provide users an easy way to generate a list of loans and save that list as CSV file for permanent access. This will allow users to update their list daily as loan availability and requirements fluctuate. The purpose of this is to help users skip grueling phone calls with lending firms. The master list of available loans will be pulled each morning to ensure accurate and reliable qualifying loans lists.
+This bitcoin analysis sheet is meant to utilize large amounts of trading data to evaluate market trends and establish a benchmark for favorable profit margins. 
+The focus of this document is trading arbitrage down to the exact minute each platform receives buy/sell orders. 
 
 ---
 
@@ -8,9 +9,11 @@ This loan qualifier app is designed to provide users an easy way to generate a l
 
 This project leverages python 3.10 with the following packages:
 
-* [fire](https://github.com/google/python-fire) - For the command line interface, help page, and entrypoint.
+* [matplotlib](https://github.com/matplotlib/matplotlib) - For available packages within matplotlib.
 
-* [questionary](https://github.com/tmbo/questionary) - For interactive user prompts and dialogs.
+* [pandas](https://github.com/pandas-dev/pandas) - For available packages within pandas.
+
+* [jupyterlab](https://github.com/jupyterlab/jupyterlab) - For packages within jupyter lab.
 
 ---
 
@@ -19,29 +22,31 @@ This project leverages python 3.10 with the following packages:
 This application requires you first install the following dependencies to run correctly.
 
 ```python
-  pip install fire
-  pip install questionary
+  pip install matplotlib
+  pip install pandas
+```
+
+```jupyter lab
+  conda install jupyterlab
 ```
 
 ---
 
 ## Usage
 
-To use the loan qualifier application simply clone the repository and run the **app.py** with:
+To use the loan qualifier application simply clone the repository and run the **crypto_arbitrage.ipynb** with:
 
-```python
-python app.py
+```jupyterlab
+python crypto_arbitrage.ipynb
 ```
 
-Upon launching the loan qualifier application you will be greeted with the following prompts.
-
-![Loan Qualifier Prompts](./loan_qualifier_app/images/loan_qualifier.png)
+Upon launching the crypto arbitrage notebook, you can see the analysis of bitcoin trading during Q1 2018.
 
 ---
 
 ## Contributors
 
-***Brought to you by World Reknowned Lending Application Team at LeSieur Home Loans***
+***Brought to you by World Reknowned Market Analysis Team at LeSieur Market Research***
 
 ---
 
